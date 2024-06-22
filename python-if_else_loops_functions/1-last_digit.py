@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 
-if(number > 0):
+if(number >= 0):
     x = int(str(number)[-1])
 else:
     x = int(str(number)[-1])*(-1)
